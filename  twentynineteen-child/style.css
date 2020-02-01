@@ -16,7 +16,7 @@ body {
   font-size: 16px;
 }
 
-.lists {
+.flex {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -30,11 +30,20 @@ body {
 
 .item.thum {
   padding: 10px;
-  width: 40%;
 }
 
 .item.content {
-  width: 60%;
+  /* width: 60%; */
+}
+
+.item.content .time {
+  font-size: 12px;
+}
+
+.item.content .title {
+  line-height: 1.2;
+    font-size: 14px;
+    color: #2e2e2e;
 }
 
 .thum img {
@@ -46,6 +55,27 @@ body {
   height: auto;
 }
 
+.flex-wrap{
+  border-bottom: 1px solid #e2e2e2;
+}
+
+@media (min-width: 900px ){
+  .site-main {
+    width: 840px;
+    margin: 0 auto;
+  }
+  .item.thum {
+    padding: 10px;
+    width: 80%;
+  }
+  .thum img {
+    max-width: 60%;
+    height: auto;
+  }
+  .widget-title {
+    font-size: 16px;
+  }
+}
 /* カスタム */
 
 .entry .entry-content p {
