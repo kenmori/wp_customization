@@ -1,4 +1,21 @@
 <?php
+/**
+ * The template for displaying all single posts
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
+ *
+ * @package WordPress
+ * @subpackage Twenty_Nineteen
+ * @since 1.0.0
+ */
+
+get_header();
+?>
+
+<section id="primary" class="content-area">
+<main id="main" class="site-main">
+
+    <?php
 global $post;
 $args = array( 'posts_per_page' => 8 );
 $myposts = get_posts( $args );
@@ -25,3 +42,11 @@ setup_postdata($post);
 }
 wp_reset_postdata();
 ?>
+
+
+
+</main><!-- #main -->
+</section><!-- #primary -->
+
+<?php
+get_footer();

@@ -11,6 +11,11 @@ Updated: 2020-02-01 19:59:07
 
 */
 
+body {
+  line-height: 1;
+  font-size: 16px;
+}
+
 .lists {
   display: flex;
   width: 100%;
@@ -22,6 +27,16 @@ Updated: 2020-02-01 19:59:07
 .item {
   padding: 10px;
 }
+
+.item.thum {
+  padding: 10px;
+  width: 40%;
+}
+
+.item.content {
+  width: 60%;
+}
+
 .thum img {
   width: 30%;
 }
@@ -29,4 +44,27 @@ Updated: 2020-02-01 19:59:07
 .thum img {
   width: 100%;
   height: auto;
+}
+
+/* カスタム */
+
+.entry .entry-content p {
+  line-height: 1.6;
+  letter-spacing: 1.1px;
+  font-size: 16px;
+}
+.site-header.featured-image {
+  min-height: auto;
+}
+.site-header.featured-image .site-featured-image .entry-header {
+  margin-top: 0;
+}
+.site-header.featured-image
+
+.widget-title {
+  font-size: 18px;
+}
+
+.widget.widget_recent_entries ul li a {
+  font-size: 16px;
 }
