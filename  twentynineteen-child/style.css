@@ -1,0 +1,70 @@
+/*
+Theme Name: Twenty Nineteen Child
+Theme URI: https://wordpress.org/themes/twentynineteen/
+Template: twentynineteen
+Author: the WordPress team
+Author URI: https://wordpress.org/
+Description: Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
+Tags: one-column,flexible-header,accessibility-ready,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,rtl-language-support,sticky-post,threaded-comments,translation-ready
+Version: 1.4.1580554747
+Updated: 2020-02-01 19:59:07
+
+*/
+
+body {
+  line-height: 1;
+  font-size: 16px;
+}
+
+.lists {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.item {
+  padding: 10px;
+}
+
+.item.thum {
+  padding: 10px;
+  width: 40%;
+}
+
+.item.content {
+  width: 60%;
+}
+
+.thum img {
+  width: 30%;
+}
+
+.thum img {
+  width: 100%;
+  height: auto;
+}
+
+/* カスタム */
+
+.entry .entry-content p {
+  line-height: 1.6;
+  letter-spacing: 1.1px;
+  font-size: 16px;
+}
+.site-header.featured-image {
+  min-height: auto;
+}
+.site-header.featured-image .site-featured-image .entry-header {
+  margin-top: 0;
+}
+.site-header.featured-image
+
+.widget-title {
+  font-size: 18px;
+}
+
+.widget.widget_recent_entries ul li a {
+  font-size: 16px;
+}
