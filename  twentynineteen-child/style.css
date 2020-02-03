@@ -24,6 +24,10 @@ body {
   box-sizing: border-box;
 }
 
+.flex > a {
+  flex: 1;
+}
+
 .item {
   padding: 10px;
 }
@@ -33,7 +37,7 @@ body {
 }
 
 .item.content {
-  /* width: 60%; */
+  flex: 1;
 }
 
 .item.content .time {
@@ -64,9 +68,15 @@ body {
     width: 840px;
     margin: 0 auto;
   }
+  .flex > a {
+    flex: 1;
+  }
   .item.thum {
     padding: 10px;
     width: 80%;
+  }
+  .item.content {
+    flex: 1;
   }
   .thum img {
     max-width: 60%;
@@ -96,5 +106,20 @@ body {
 }
 
 .widget.widget_recent_entries ul li a {
+  font-size: 16px;
+}
+
+.more-link {
+  font-size: 12px;
+}
+
+.comments-title {
+  font-size: 16px;
+}
+.comment-respond {
+  margin: 0;
+}
+
+.widget-column.footer-widget-1 .widget-title {
   font-size: 16px;
 }
