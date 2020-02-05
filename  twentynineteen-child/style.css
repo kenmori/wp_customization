@@ -63,6 +63,8 @@ body {
   border-bottom: 1px solid #e2e2e2;
 }
 
+
+/* PC */
 @media (min-width: 900px ){
   .site-main {
     width: 840px;
@@ -111,6 +113,10 @@ body {
 
 .more-link {
   font-size: 12px;
+}
+
+.widget_pages .page_item > a {
+  font-size: 16px;
 }
 
 .comments-title {
