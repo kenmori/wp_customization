@@ -45,9 +45,10 @@ body {
 }
 
 .item.content .title {
-  line-height: 1.2;
-    font-size: 14px;
-    color: #2e2e2e;
+  line-height: 1.4;
+  font-size: 14px;
+  color: #2e2e2e;
+  letter-spacing: 1.2px;
 }
 
 .thum img {
@@ -116,7 +117,7 @@ body {
 }
 
 .main-navigation .main-menu > li.menu-item-has-children {
-  position: absolute;
+  position: absolute!important;
     top: 0;
     right: 0;
 }
@@ -134,4 +135,15 @@ body {
 
 .widget-column.footer-widget-1 .widget-title {
   font-size: 16px;
+}
+
+
+.greeting, .info {
+  padding: 10px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.has-regular-font-size, .has-large-font-size, .comments-title, h3 {
+  font-size: 1.1em;
 }
