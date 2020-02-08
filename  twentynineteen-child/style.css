@@ -147,3 +147,5 @@ body {
 .has-regular-font-size, .has-large-font-size, .comments-title, h3 {
   font-size: 1.1em;
 }
+
+.page-template-reservation .reservation__wrapper { background-image: url( 'https://terracetech.jp/wp-content/uploads/2020/02/BF75067F-3B4D-412B-A570-297E20139258.jpeg' ); }
