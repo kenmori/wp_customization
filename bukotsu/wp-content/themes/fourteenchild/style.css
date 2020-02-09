@@ -33,6 +33,12 @@ font-family: "�ҥ饮������ W6 JIS2004";
 
  }
 
+ .entry-title, .entry-title a, h3 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.4;
+ }
+
 /*PC*/
 @media screen and (min-width: 673px){
 	#breadcrumb {
@@ -117,6 +123,7 @@ font-family: "�ҥ饮������ W6 JIS2004";
 		margin: 0 auto 28px;
 	}
 }
+
 @media screen and (max-width: 400px) {
 
 	#npcatch li a .text {
@@ -136,7 +143,10 @@ font-family: "�ҥ饮������ W6 JIS2004";
 	.indexpost .entry-header h1 a {
 		display: -webkit-box;
 		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 2;
+    -webkit-line-clamp: 2;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.4;
 	}
 	.widget {
 		margin-bottom: 0;
@@ -688,3 +698,8 @@ h3 {
 #npcatch img {
 	padding: 5px 10px 5px 0;
 }
+
+.search-toggle {
+  display: none;
+}
+
