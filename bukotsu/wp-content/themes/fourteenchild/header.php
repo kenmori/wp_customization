@@ -171,6 +171,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
    ul.related_post li small {
 	   font-size: 80%;
    }
+	 
+	 .site-content .entry-content {
+		height: 5px;
+    padding-top: 5px;
+	 }
 
    @media screen and (max-width: 480px) {
 	   ul.related_post li {
@@ -260,6 +265,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 	margin-right: 10px;
 	position: relative;
 	top: -1px;
+}
+
+.hentry {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #e2e2e2;
 }
 
     </style>
