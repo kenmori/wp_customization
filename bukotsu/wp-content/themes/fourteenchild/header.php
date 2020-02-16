@@ -171,12 +171,15 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
    ul.related_post li small {
 	   font-size: 80%;
    }
-	 
+
 	 .site-content .entry-content {
 		height: 5px;
     padding-top: 5px;
 	 }
 
+	 .menu-toggle {
+		  display: none;
+	 }
    @media screen and (max-width: 480px) {
 	   ul.related_post li {
 		   display: inline-block !important;
