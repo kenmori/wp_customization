@@ -2,8 +2,8 @@
  
 //ここに処理を記述していきます
  
-wp_deregister_script('jquery');
-wp_enqueue_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js', array(), '1.11.1');
+// wp_deregister_script('jquery');
+// wp_enqueue_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js', array(), '1.11.1');
 
 
 /*
@@ -61,32 +61,32 @@ $str.='<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb" style="di
 
 
 if (!is_admin()) {
-   function deregister_script(){  //登録解除の項目
+//    function deregister_script(){  //登録解除の項目
 
-    }
+//     }
     add_filter( 'wp_default_scripts', 'dequeue_jquery_migrate' );
     function dequeue_jquery_migrate( $scripts){
         if(!is_admin()){
             $scripts->remove( 'jquery');
-            $scripts->add( 'jquery', false, array( 'jquery-core' ), '1.10.2' );
+            // $scripts->add( 'jquery', false, array( 'jquery-core' ), '1.10.2' );
         }
     }
-    function deregister_qjuery() {
-        if ( !is_admin() ) {
-            wp_deregister_script('jquery');
-        }
-    }
+    // function deregister_qjuery() {
+    //     if ( !is_admin() ) {
+    //         wp_deregister_script('jquery');
+    //     }
+    // }
 
-add_action('wp_enqueue_scripts', 'deregister_qjuery');
-   function register_script(){  //登録の項目
-        wp_register_script( 'bundle', get_stylesheet_directory_uri() . '/dist/fourteen.bundle.js', false, '', true);
-        }
+// add_action('wp_enqueue_scripts', 'deregister_qjuery');
+//    function register_script(){  //登録の項目
+//         wp_register_script( 'bundle', get_stylesheet_directory_uri() . '/dist/fourteen.bundle.js', false, '', true);
+//         }
     function add_script() {  // 装備の項目
-        deregister_script();
-        register_script();
-        wp_enqueue_script('bundle');
+        // deregister_script();
+        // register_script();
+        // wp_enqueue_script('bundle');
 
-        }
+    }
     add_action('wp_enqueue_scripts', 'add_script');
 }
 
