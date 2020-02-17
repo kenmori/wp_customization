@@ -180,6 +180,10 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 	 .menu-toggle {
 		  display: none;
 	 }
+	 .content-sidebar .widget .widget-title {
+		font-size: 12px;
+    font-weight: 700;
+	 }
    @media screen and (max-width: 480px) {
 	   ul.related_post li {
 		   display: inline-block !important;
