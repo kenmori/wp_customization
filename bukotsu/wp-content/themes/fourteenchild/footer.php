@@ -15,19 +15,11 @@
 		<footer id="colophon" class="site-footer" role="contentinfo">
 
 			<?php get_sidebar( 'footer' ); ?>
-
-			<div class="site-info">
-				<?php do_action( 'twentyfourteen_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyfourteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfourteen' ), 'WordPress' ); ?></a>
-			</div><!-- .site-info -->
+			<!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 	<!--[if lt IE 9]>
-    	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
-    	<![endif]-->
-    <script type="text/javascript">
-	    window.onload = function() { setTimeout(scrollTo, 100, 0, 1); }
-	</script>
+	<![endif]-->
 
 
 
