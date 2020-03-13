@@ -278,6 +278,9 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 	margin-bottom: 10px;
 	border-bottom: 1px solid #e2e2e2;
 }
+.markdown-body.entry-content {
+	min-height: 1000px;
+}
 
     </style>
 	<?php wp_head(); ?>
