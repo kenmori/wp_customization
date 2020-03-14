@@ -282,7 +282,11 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 	min-height: 1000px;
 }
 
-    </style>
+.entry-content {
+	margin: 0 auto;
+}
+
+</style>
 	<?php wp_head(); ?>
 	<meta name="google-site-verification" content="aF7Nnl0otsSvBoLQc2c6ymTPu2K8bcv_292nRkpOUTA" />
 	<!-- Start of Async Drift Code -->
@@ -313,24 +317,10 @@ drift.SNIPPET_VERSION = '0.3.1';
 drift.load('s7npczyfpetr');
 </script>
 <!-- End of Async Drift Code -->
-<!--プッシュ通知 -->
-<script type="text/javascript">
-  (function(p,u,s,h){
-      p._pcq=p._pcq||[];
-      p._pcq.push(['_currentTime',Date.now()]);
-      s=u.createElement('script');
-      s.type='text/javascript';
-      s.async=true;
-      s.src='https://cdn.pushcrew.com/js/8f61553500ea9c200b73904e0fef2021.js';
-      h=u.getElementsByTagName('script')[0];
-      h.parentNode.insertBefore(s,h);
-  })(window,document);
-</script>
-<!--プッシュ通知 end-->
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> style="padding: 0px;">
   <?php include_once("analyticstracking.php"); ?>
   <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZFXB35"
