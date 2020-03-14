@@ -8,7 +8,8 @@ Template:twentyfourteen
 
 /*all*/
 h1.site-title{
-font-family: "¥Ò¥é¥®¥ÎÃ÷³¯ W6 JIS2004";
+/* font-family: "¥Ò¥é¥®¥ÎÃ÷³¯ W6 JIS2004"; */
+display: flex;
 }
 .entry-meta .tag-links a{
 	background:#BBBBBB;

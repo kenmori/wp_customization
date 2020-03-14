@@ -62,7 +62,7 @@
 		<?php get_the_excerpt(); ?>
 	</div><!-- .entry-summary -->
 	<?php else : ?>
-	<div class="entry-content">
+	<div class="entry-content" style="margin: 0 auto; max-width: none;">
 		<?php if(is_home() && !is_paged()): ?>
 		<?php else : ?>
 			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

@@ -14,7 +14,8 @@ select {
 }
 
 h1.site-title{
-font-family: "�ҥ饮������ W6 JIS2004";
+/* font-family: "�ҥ饮������ W6 JIS2004"; */
+	display: flex;
 }
 
 .entry-meta a , .nav-links a{
@@ -391,20 +392,20 @@ background-size: 90%;
     	 url("font/fontello.ttf") format('truetype'),
      	 url("font/fontello.svg#fontello") format('svg')
 }
-a[href^="https://www.facebook.com/kennji.morita"]:before{
+/* a[href^="https://www.facebook.com/kennji.morita"]:before{
 	font-family:'fontello';
 	content:'f';
 	color:#41a62a;
 	margin:0 10px;
 	font-size:28px;
-}
-a[href^="https://twitter.com/moritakennji"]:before{
+} */
+/* a[href^="https://twitter.com/moritakennji"]:before{
 	font-family:'fontello';
 	content:'t';
 	color:#41a62a;
 	margin:0 10px;
 	font-size:28px;
-}
+} */
 a.instagram:before{
 	font-family:'fontello';
 	content:'s';
