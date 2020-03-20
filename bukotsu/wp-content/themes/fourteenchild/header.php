@@ -285,6 +285,9 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 .entry-content {
 	margin: 0 auto;
 }
+.site-branding .site-title, .site-branding .site-text-logo, .entry-title, .cat-links {
+	text-transform: none!important;
+}
 
 </style>
 	<?php wp_head(); ?>
