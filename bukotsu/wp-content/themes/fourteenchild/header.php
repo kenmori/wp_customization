@@ -288,7 +288,9 @@ h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
 .site-branding .site-title, .site-branding .site-text-logo, .entry-title, .cat-links {
 	text-transform: none!important;
 }
-
+.gist .markdown-body {
+	margin: 0 auto;
+}
 </style>
 	<?php wp_head(); ?>
 	<meta name="google-site-verification" content="aF7Nnl0otsSvBoLQc2c6ymTPu2K8bcv_292nRkpOUTA" />
