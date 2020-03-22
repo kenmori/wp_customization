@@ -34,6 +34,15 @@ get_header(); ?>
 
 		<div id="primary" class="content-area">
 			<div id="content" class="site-content" role="main">
+				<div style="margin: 1vw;">
+				<script>
+					if (window.matchMedia( "(min-width: 400px)" ).matches) {
+						<img src="/wp-content/uploads/2020/03/bukotsu.png" width="100" alt="もりたけんじのブログ武骨日記" /></div>
+					} else {
+						<span>毎日24時更新中</span>
+					}
+				</script>
+				</div>
 			<?php
 				if ( have_posts() ) :
 					// Start the Loop.
