@@ -145,7 +145,7 @@ h1.site-title{
 		display: -webkit-box;
 		-webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 700;
     line-height: 1.4;
 	}
@@ -184,8 +184,7 @@ h1.site-title{
 		 position: absolute;
 	 }
 	 .list-view .site-content .post-thumbnail img{
-	 	margin:0px 10px 3px 0;
-		width: 80px;
+		width: 50px;
 	 }
 	 .single .post-thumbnail{
 		display:none;
@@ -197,10 +196,13 @@ h1.site-title{
 	.list-view .site-content .entry-header {
 		background-color: transparent;
 		padding: 0;
-		padding-left: 29%;
-		min-height: 82px;
+		padding-left: 16%;
+		min-height: 42px;
 		padding-top: 0;
 		padding-bottom: 0;
+	}
+	.list-view .site-content .hentry {
+		padding: 8px 0 8px; 
 	}
 	.list-view .site-content .entry-header > a {
 
