@@ -350,7 +350,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
 			<h1 class="site-title"><a href="/"><img src="/wp-content/uploads/2016/03/icon.png" class="logo" /></a><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-			<img src="/wp-content/uploads/2020/04/blogtitle.png" alt="武骨日記" style="width:100px;">
+			<img src="/wp-content/uploads/2020/04/bukotsu.png" alt="武骨日記" style="width:100px;">
 		</a>
 		</h1>
 
