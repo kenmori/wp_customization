@@ -2421,7 +2421,9 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 783px) {
   .header-main {
-    padding-right: 0; }
+    padding-right: 0;
+    display: flex;
+  }
   .search-toggle {
     margin-right: 0; }
   /* Fixed Header */
@@ -2439,7 +2441,7 @@ a.post-thumbnail:hover {
   .primary-navigation {
     float: right;
     font-size: 11px;
-    margin: 0 1px 0 -12px;
+    margin: 16 1px 0 10px;
     padding: 0;
     text-transform: none; }
     .primary-navigation .menu-toggle {
@@ -2455,8 +2457,6 @@ a.post-thumbnail:hover {
     .primary-navigation li {
       border: 0;
       display: inline-block;
-      height: 48px;
-      line-height: 48px;
       position: relative; }
     .primary-navigation a {
       display: inline-block;
