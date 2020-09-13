@@ -11,7 +11,9 @@ get_header(); ?>
     <header id="masthead" class="site-header" role="banner">
         <div class="header-main">
             <h1 class="site-title">
-              <a href="/"><img src="/wp-content/uploads/2016/03/icon.png" class="logo" /></a><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+              <a href="/"><img src="/wp-content/uploads/2016/03/icon.png" class="logo" /></a><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+                <img src="/wp-content/uploads/2020/04/bukotsu.png" alt="武骨日記" style="width:100px;">
+              </a>
             </h1>
             <time class="entry-date date updated" datetime="<?php the_time(DATE_W3C); ?>">
                 <?php the_time( 'Y/m/d' ); ?>
